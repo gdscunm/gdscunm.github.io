@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./src/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="flex items-center px-4">
+            <a href="#home">
+              <img src="./img/logogdgoc.png" class="max-w-72" alt="logoGdgoc" />
+            </a>
+          </div>
+          <div class="flex items-center px-4">
+            <button id="hamburger" name="hamburger" type="button" class="absolute block right-4 lg:hidden">
+              <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out"></span>
+              <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+            </button>
+            <nav
+              id="nav-menu"
+              class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-3 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none dark:bg-dark lg:dark:bg-transparent dark:shadow-slate-500"
+            >
+              <ul class="flex flex-col lg:flex-row">
+                <li class="group flex items-center">
+                  <a href="#home" class="text-dark text-base py-2 px-4 flex items-center group-hover:text-primary dark:text-white font-bold"> Home </a>
+                </li>
+                <li class="group flex items-center">
+                  <a href="#ouractivities" class="text-dark text-base py-2 px-4 flex items-center group-hover:text-primary dark:text-white"> Our Activities </a>
+                </li>
+                <li class="group flex items-center">
+                  <a href="#weeklyclass" class="text-dark text-base py-2 px-4 flex items-center group-hover:text-primary dark:text-white"> Weekly Class </a>
+                </li>
+                <li class="group flex items-center">
+                  <a href="#GoogleEvents" class="text-dark text-base py-2 px-4 flex items-center group-hover:text-primary dark:text-white"> Google Events </a>
+                </li>
+                <li class="group flex items-center">
+                  <a href="#ourTeam" class="text-dark text-base py-2 px-4 flex items-center group-hover:text-primary dark:text-white"> Our Team </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="home" class="pt-32">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h1 class="font-medium text-5xl mb-10">What is Google Developer Group On Campus?</h1>
+            <p class="text-justify text-base">
+              Google Developer Group On Campus (GDGOC) are community groups for college students interested in Google developer technologies. Students from all undergraduate or postgraduate programs with an interest in growing as a
+              developer are welcome. By joining a GDGOC, students grow their knowledge in a peer-to-peer learning environment and build solutions for local businesses and their communities. In 2021, GDGOC will be present at Makassar State
+              great things together? Join the GDGOC Universitas Negeri Makassar, and let's make an impact on our community ecosystem! Follow our instagram account: <a href="https://www.instagram.com/gdgoc.unm/">Ikuti</a>
+            </p>
+          </div>
+          <div class="w-full self-end px-4 lg:w-1/2">
+            <img src="./img/home.png" class="max-w-full hidden lg:block" alt="hero" />
+          </div>
+        </div>
+        <div class="bg-gradient-to-r from-blue-400 to-blue-500 rounded-xl p-10 flex flex-col lg:flex-row items-center justify-between space-y-10 lg:space-y-0 mt-5">
+          <!-- Gambar -->
+          <div class="lg:w-1/2 flex justify-center">
+            <img src="img/home1-removebg-preview.png" alt="Illustration" class="w-3/4 lg:w-full max-w-md" />
+          </div>
+          <div class="lg:w-1/2 text-white text-center lg:text-left">
+            <h2 class="text-3xl font-bold mb-4 text-center">Want to be part of us?</h2>
+            <div class="border-b-2 border-gray-300 w-20 mb-4 mx-auto"></div>
+            <p class="mb-4">
+              Join us by Clicking <span class="font-semibold">"Join Us"</span> on Our Community Page in Bevy. Then, Join to our Discord Community Server by
+              <a href="https://gdg.community.dev/gdg-on-campus-universitas-negeri-makassar-makassar-indonesia/" class="underline text-blue-200">Click Here</a>.
+            </p>
+            <p class="mb-6">We are open to all university students to be part of us! Grow your connection with others by joining our Discord.</p>
+            <div class="flex justify-center lg:justify-start">
+              <button class="bg-white text-blue-500 font-semibold py-2 px-6 rounded-full hover:bg-blue-100 shadow-lg"><a href="https://gdg.community.dev/gdg-on-campus-universitas-negeri-makassar-makassar-indonesia/">Join Us</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="ouractivities" class="pt-28">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Activities</h2>
+        <div class="border-b-2 border-gray-300 w-20 mx-auto mb-4"></div>
+        <p class="text-gray-600 max-w-2xl mx-auto">
+          Is a routine activity that will be carried out by the core team, members of Google Developer Academy students, and the general public where we share many things to keep upgrading with current technology.
+        </p>
+      </div>
+      <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-6 lg:px-0 mb-10">
+        <div class="bg-white rounded-lg shadow-lg p-6">
+          <img
+            src="img/card1-removebg-preview.png"
+            class="w-full h-32 object-contain mb-4"
+            alt="car
+          d1"
+          />
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Hands-on Workshop</h3>
+          <p class="text-gray-600 text-sm">This is an event where we provide speaker sessions about technology from various fields where general public can attend</p>
+        </div>
+        <div class="bg-white rounded-lg shadow-lg p-6">
+          <img src="img/card2-removebg-preview.png" class="w-full h-32 object-contain mb-4" alt="card1" />
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Tech Talks</h3>
+          <p class="text-gray-600 text-sm">This is an event where we provide speaker sessions about technology from various fields where general public can attend</p>
+        </div>
+        <div class="bg-white rounded-lg shadow-lg p-6">
+          <img src="img/showcase.png" class="w-full h-32 object-contain mb-4" alt="card1" />
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Weekly Class</h3>
+          <p class="text-gray-600 text-sm">This is an event where we provide speaker sessions about technology from various fields where general public can attend</p>
+        </div>
+        <div class="bg-white rounded-lg shadow-lg p-6">
+          <img src="img/sharing.png" class="w-full h-32 object-contain mb-4" alt="card1" />
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Project Showcase</h3>
+          <p class="text-gray-600 text-sm">This is an event where we provide speaker sessions about technology from various fields where general public can attend</p>
+        </div>
+      </div>
+    </section>
+    <section class="pt-32 bg-blue-50 pb-10" id="weeklyclass">
+      <div class="max-w-6xl mx-auto px-4">
+        <h1 class="text-3xl font-bold text-blue-500 mb-14 justify-center items-center flex">Our Weekly Class</h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="bg-white shadow-md rounded-lg p-6">
+            <div class="flex justify-center mb-4">
+              <img src="img/google-cloud.256x206.png" alt="Cloud Study Jams Logo" class="w-1/3 mb-5" />
+            </div>
+            <h2 class="text-xl font-semibold text-gray-800 mb-2">Cloud Study Jams</h2>
+            <p class="text-gray-600">Hone your skills and further your cloud knowledge by getting familiar with the resources available to you using curriculum provided by Google and interacting with experts.</p>
+          </div>
+          <div class="bg-white shadow-md rounded-lg p-6">
+            <div class="flex justify-center mb-4">
+              <img src="img/Android Logomark.png" alt="Android Study Jams Logo" class="w-1/2" />
+            </div>
+            <h2 class="text-xl font-semibold text-gray-800 mb-2">Android Study Jams</h2>
+            <p class="text-gray-600">Hone your skills and further your knowledge by following Android study jam class where will be focus on learn the fundamentals of Kotlin programming language to become an Android Developer.</p>
+          </div>
+          <div class="bg-white shadow-md rounded-lg p-6">
+            <div class="flex justify-center mb-4">
+              <img src="img/icons8-ux-100.png" alt="Android Study Jams Logo" />
+            </div>
+            <h2 class="text-xl font-semibold text-gray-800 mb-2">UI / UX</h2>
+            <p class="text-gray-600">Hone your skills and further your knowledge by following Android study jam class where will be focus on learn the fundamentals of Kotlin programming language to become an Android Developer.</p>
+          </div>
+          <div class="bg-white shadow-md rounded-lg p-6">
+            <div class="flex justify-center mb-4">
+              <img src="img/icons8-frontend-100.png" alt="Android Study Jams Logo" />
+            </div>
+            <h2 class="text-xl font-semibold text-gray-800 mb-2">Front End</h2>
+            <p class="text-gray-600">Hone your skills and further your knowledge by following Android study jam class where will be focus on learn the fundamentals of Kotlin programming language to become an Android Developer.</p>
+          </div>
+          <div class="bg-white shadow-md rounded-lg p-6">
+            <div class="flex justify-center mb-4">
+              <img src="img/icons8-data-science-100.png" alt="Android Study Jams Logo" />
+            </div>
+            <h2 class="text-xl font-semibold text-gray-800 mb-2">Data Science</h2>
+            <p class="text-gray-600">Hone your skills and further your knowledge by following Android study jam class where will be focus on learn the fundamentals of Kotlin programming language to become an Android Developer.</p>
+          </div>
+          <div class="bg-white shadow-md rounded-lg p-6">
+            <div class="flex justify-center mb-4">
+              <img src="img/icons8-backend-100.png" alt="Android Study Jams Logo" />
+            </div>
+            <h2 class="text-xl font-semibold text-gray-800 mb-2">Back End</h2>
+            <p class="text-gray-600">Hone your skills and further your knowledge by following Android study jam class where will be focus on learn the fundamentals of Kotlin programming language to become an Android Developer.</p>
+          </div>
+          <div class="bg-white shadow-md rounded-lg p-6">
+            <div class="flex justify-center mb-4">
+              <img src="img/ML.png" alt="Android Study Jams Logo" class="w-1/3" />
+            </div>
+            <h2 class="text-xl font-semibold text-gray-800 mb-2">Machine Learning</h2>
+            <p class="text-gray-600">Hone your skills and further your knowledge by following Android study jam class where will be focus on learn the fundamentals of Kotlin programming language to become an Android Developer.</p>
+          </div>
+          <div class="bg-white shadow-md rounded-lg p-6">
+            <div class="flex justify-center mb-4">
+              <img src="img/icons8-robotic-arm-100.png" alt="Android Study Jams Logo" />
+            </div>
+            <h2 class="text-xl font-semibold text-gray-800 mb-2">Robotik</h2>
+            <p class="text-gray-600">Hone your skills and further your knowledge by following Android study jam class where will be focus on learn the fundamentals of Kotlin programming language to become an Android Developer.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="GoogleEvents" class="pt-32">
+      <div class="text-center">
+        <h2 class="text-3xl font-bold text-gray-800 mb-4">Google Events</h2>
+        <div class="border-b-2 border-gray-300 w-20 mx-auto mb-4"></div>
+        <p class="text-gray-600 max-w-2xl mx-auto">Where we provide information for you to take part in events or competitions from Google, to hone the knowledge you have and improve your skills</p>
+      </div>
+      <div class="container mx-auto flex flex-wrap justify-center items-center py-10">
+        <div class="w-full px-4 lg:w-1/2 mb-6 lg:mb-0">
+          <img src="https://developers.google.com/static/community/images/gdsc-solution-challenge/homepage-hero.webp?hl=id" alt="Global Solution Challenge" class="rounded-lg w-full h-auto" />
+        </div>
+        <div class="w-full px-4 lg:w-1/2">
+          <h2 class="text-3xl font-bold text-gray-800 mb-4">Global Solution Challenge</h2>
+          <p class="text-gray-600 text-lg leading-relaxed mb-6">The contest seeks to invite students to develop solutions for local challenges that their communities are facing, using one or more Google technologies.</p>
+          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 md:py-3 md:px-6 rounded shadow transition-all duration-300 text-sm md:text-base">More Info</button>
+        </div>
+      </div>
+      <div class="container mx-auto flex flex-wrap justify-center items-center py-10">
+        <div class="w-full px-4 lg:w-1/2 mb-6 lg:mb-0">
+          <h2 class="text-3xl font-bold text-gray-800 mb-4">#JuaraGCP</h2>
+          <p class="text-gray-600 text-lg leading-relaxed mb-6">
+            JuaraGCP is a program designed to invite Indonesian developers to complete training on cloud computing at Qwiklabs. This training can also prepare participants to continue their learning journey in achieving GCP certification.
+          </p>
+          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 md:py-3 md:px-6 rounded shadow transition-all duration-300 text-sm md:text-base">More Info</button>
+        </div>
+        <div class="w-full px-4 lg:w-1/2 flex justify-center">
+          <img src="https://www.gstatic.com/devrel-devsite/prod/v0e0f589edd85502a40d78d7d0825db8ea5ef3b99ab4070381ee86977c9168730/cloud/images/cloud-logo.svg" alt="juara Gcp" class="rounded-lg w-1/2 h-auto" />
+        </div>
+      </div>
+    </section>
+    <section class="pt-28">
+      <div class="text-center mb-10">
+        <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Team Roles</h2>
+        <div class="border-b-2 border-gray-300 w-20 mx-auto mb-4"></div>
+      </div>
+      <div class="flex justify-center items-center">
+        <img src="img/ourteam.png" alt="ourTeam" class="w-4/5 md:w-3/5 lg:w-2/5 h-auto" />
+      </div>
+    </section>
+    <section class="pt-32" id="ourTeam">
+      <div class="text-center">
+        <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Team</h2>
+        <div class="border-b-2 border-gray-300 w-20 mx-auto mb-5"></div>
+        <p class="text-gray-600 max-w-2xl mx-auto m-10">Faculty Advisor and Core Team has responsibility for helping leader to develop the community by supporting every student on our campus to grow as a developer</p>
+      </div>
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-8 container mx-auto px-6 lg:px-20 py-10">
+        <div class="text-center">
+          <img
+            src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/rafika_hutami_putri.JPG"
+            alt="ourteam"
+            class="mx-auto rounded-full w-24 h-24 mb-4"
+          />
+          <h4 class="text-lg font-semibold text-gray-800">rafika hutami putri</h4>
+          <p class="text-sm text-gray-500">Organizer</p>
+        </div>
+        <div class="text-center">
+          <img
+            src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/muhammad_alwi_tDWIwn5.jpeg"
+            alt="Muhammad Alwi"
+            class="mx-auto rounded-full w-24 h-24 mb-4"
+          />
+          <h4 class="text-lg font-semibold text-gray-800">Muhammad Alwi</h4>
+          <p class="text-sm text-gray-500">Co-Organizer</p>
+        </div>
+        <div class="text-center">
+          <img
+            src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/ptik-b_nafil_rizqullah_rajab.jpg"
+            alt="Nafil Rizqullah Rajab"
+            class="mx-auto rounded-full w-24 h-24 mb-4"
+          />
+          <h4 class="text-lg font-semibold text-gray-800">Nafil Rizqullah Rajab</h4>
+          <p class="text-sm text-gray-500">Front-end Developer</p>
+        </div>
+        <div class="text-center">
+          <img
+            src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/ugustiningtyas_supriatno_WlxvR2g.png"
+            alt="Ugustiningtyas Supriatno"
+            class="mx-auto rounded-full w-24 h-24 mb-4"
+          />
+          <h4 class="text-lg font-semibold text-gray-800">Ugustiningtyas Supriatno</h4>
+          <p class="text-sm text-gray-500">Back-End Developer</p>
+        </div>
+        <div class="text-center">
+          <img
+            src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/muhammad_ikram_muslimin.jpg"
+            alt="Muhammad Ikram Muslimin"
+            class="mx-auto rounded-full w-24 h-24 mb-4"
+          />
+          <h4 class="text-lg font-semibold text-gray-800">Muhammad Ikram Muslimin</h4>
+          <p class="text-sm text-gray-500">Mobile Developer</p>
+        </div>
+        <div class="text-center">
+          <img
+            src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/featured_attendees/IMG_0145.JPG"
+            alt="Firmansyah Sainuddin"
+            class="mx-auto rounded-full w-24 h-24 mb-4"
+          />
+          <h4 class="text-lg font-semibold text-gray-800">Firmansyah Sainuddin</h4>
+          <p class="text-sm text-gray-500">Mobile Developer</p>
+        </div>
+        <div class="text-center">
+          <img
+            src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/featured_attendees/WhatsApp%20Image%202023-04-22%20at%2020.13.37.jpeg"
+            alt="Ibnu Tamiyya Al-kharoni"
+            class="mx-auto rounded-full w-24 h-24 mb-4"
+          />
+          <h4 class="text-lg font-semibold text-gray-800">nafsul muthmainnah</h4>
+          <p class="text-sm text-gray-500">Machine Learning</p>
+        </div>
+        <div class="text-center">
+          <img
+            src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/ibnu_tamiyya_al-kharoni.jpeg"
+            alt="nafsul muthmainnah"
+            class="mx-auto rounded-full w-24 h-24 mb-4"
+          />
+          <h4 class="text-lg font-semibold text-gray-800">Ibnu Tamiyya Al-kharoni</h4>
+          <p class="text-sm text-gray-500">Cloud Computing</p>
+        </div>
+        <div class="text-center">
+          <img
+            src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/noer_ain_LaZr97J.png"
+            alt="Noer Ain"
+            class="mx-auto rounded-full w-24 h-24 mb-4"
+          />
+          <h4 class="text-lg font-semibold text-gray-800">Noer Ain</h4>
+          <p class="text-sm text-gray-500">UI/UX Design</p>
+        </div>
+        <div class="text-center">
+          <img
+            src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/zainab_akbar_77O9rFy.jpg"
+            alt="Zainab ."
+            class="mx-auto rounded-full w-24 h-24 mb-4"
+          />
+          <h4 class="text-lg font-semibold text-gray-800">Zainab .</h4>
+          <p class="text-sm text-gray-500">UI/UX Design</p>
+        </div>
+        <div class="text-center">
+          <img
+            src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/nurul_khaeratun_hisan_wSgHXmA.jpg"
+            alt="Nurul Khaeratun Hisan"
+            class="mx-auto rounded-full w-24 h-24 mb-4"
+          />
+          <h4 class="text-lg font-semibold text-gray-800"></h4>
+          <p class="text-sm text-gray-500">Robotik</p>
+        </div>
+        <div class="text-center">
+          <img
+            src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/abdul_gilang_tawakal.JPG"
+            alt="Abdul Gilang Tawakal"
+            class="mx-auto rounded-full w-24 h-24 mb-4"
+          />
+          <h4 class="text-lg font-semibold text-gray-800">Abdul Gilang Tawakal</h4>
+          <p class="text-sm text-gray-500">Customer Experience</p>
+        </div>
+        <div class="text-center">
+          <img
+            src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/a_siti_nabila_eka_widyaningsih.jpg"
+            alt="A_Siti Nabila Eka Widyaningsih"
+            class="mx-auto rounded-full w-24 h-24 mb-4"
+          />
+          <h4 class="text-lg font-semibold text-gray-800">A_Siti Nabila Eka Widyaningsih</h4>
+          <p class="text-sm text-gray-500">Customer Experience</p>
+        </div>
+        <div class="text-center">
+          <img
+            src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/justeen_jeane.jpg"
+            alt="ouTeam"
+            class="mx-auto rounded-full w-24 h-24 mb-4"
+          />
+          <h4 class="text-lg font-semibold text-gray-800">justeen jeane</h4>
+          <p class="text-sm text-gray-500">Customer Experience</p>
+        </div>
+        <div class="text-center">
+          <img
+            src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/nurhaliza_pute_putri.jpeg"
+            alt="ouTeam"
+            class="mx-auto rounded-full w-24 h-24 mb-4"
+          />
+          <h4 class="text-lg font-semibold text-gray-800">Putri Nurhaliza Lukman</h4>
+          <p class="text-sm text-gray-500">External Relations</p>
+        </div>
+        <div class="text-center">
+          <img
+            src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/jumadil_ahmad_safii_safii.jpg"
+            alt="ouTeam"
+            class="mx-auto rounded-full w-24 h-24 mb-4"
+          />
+          <h4 class="text-lg font-semibold text-gray-800">Jumadil Ahmad Safi'i Safi'i</h4>
+          <p class="text-sm text-gray-500">Event</p>
+        </div>
+        <div class="text-center">
+          <img
+            src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/devi_miftahul_jannah.jpg"
+            alt="ouTeam"
+            class="mx-auto rounded-full w-24 h-24 mb-4"
+          />
+          <h4 class="text-lg font-semibold text-gray-800">Devi Miftahul Jannah</h4>
+          <p class="text-sm text-gray-500">Event</p>
+        </div>
+        <div class="text-center">
+          <img
+            src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/taufik_hidayat_2GPaQFf.jpg"
+            alt="ouTeam"
+            class="mx-auto rounded-full w-24 h-24 mb-4"
+          />
+          <h4 class="text-lg font-semibold text-gray-800">Taufik Hidayat</h4>
+          <p class="text-sm text-gray-500">Event</p>
+        </div>
+        <div class="text-center">
+          <img
+            src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/mulyani_..jpg"
+            alt="ouTeam"
+            class="mx-auto rounded-full w-24 h-24 mb-4"
+          />
+          <h4 class="text-lg font-semibold text-gray-800">Mulyani .</h4>
+          <p class="text-sm text-gray-500">Content Creator and Social Media</p>
+        </div>
+        <div class="text-center">
+          <img
+            src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/ekha_mustika_putri_uEl2enk.jpeg"
+            alt="ouTeam"
+            class="mx-auto rounded-full w-24 h-24 mb-4"
+          />
+          <h4 class="text-lg font-semibold text-gray-800">ekha mustika putri</h4>
+          <p class="text-sm text-gray-500">Content Creator and Social Media</p>
+        </div>
+        <div class="text-center">
+          <img
+            src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/featured_attendees/reza.jpg"
+            alt="ouTeam"
+            class="mx-auto rounded-full w-24 h-24 mb-4"
+          />
+          <h4 class="text-lg font-semibold text-gray-800">PTIK E_ ANDI REZALDY FAUZI JAYA</h4>
+          <p class="text-sm text-gray-500">Graphic Designer</p>
+        </div>
+        <div class="text-center">
+          <img
+            src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/rois_surya_JZSSomr.jpg"
+            alt="ouTeam"
+            class="mx-auto rounded-full w-24 h-24 mb-4"
+          />
+          <h4 class="text-lg font-semibold text-gray-800">Rois Surya</h4>
+          <p class="text-sm text-gray-500">Graphic Designer</p>
+        </div>
+        <div class="text-center">
+          <img
+            src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/arctic_pinangsia_paramban.jpg"
+            alt="ouTeam"
+            class="mx-auto rounded-full w-24 h-24 mb-4"
+          />
+          <h4 class="text-lg font-semibold text-gray-800">Arctic Pinangsia paramban</h4>
+          <p class="text-sm text-gray-500">Graphic Designer</p>
+        </div>
+        <div class="text-center">
+          <img
+            src="https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_250,h_250,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/avatars/elma_nurjannah.jpg"
+            alt="ouTeam"
+            class="mx-auto rounded-full w-24 h-24 mb-4"
+          />
+          <h4 class="text-lg font-semibold text-gray-800">Elma Nurjannah</h4>
+          <p class="text-sm text-gray-500">Cameraman and Videographer</p>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-blue-50 py-6">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="flex justify-center space-x-6 text-gray-500 text-base">
+          <a href="#home" class="hover:text-gray-800">Home</a>
+          <a href="#ouractivities" class="hover:text-gray-800">Our Activities</a>
+          <a href="#weeklyclass" class="hover:text-gray-800">Weekly class</a>
+          <a href="#GoogleEvents" class="hover:text-gray-800">Google Events</a>
+          <a href="#ourTeam" class="hover:text-gray-800">Our Team</a>
+        </div>
+        <div class="flex justify-center mt-4 space-x-6">
+          <a href="https://www.instagram.com/gdgoc.unm/" class="text-gray-600 hover:text-gray-800">
+            <i class="fab fa-instagram fa-lg"></i>
+          </a>
+          <a href="#" class="text-gray-600 hover:text-gray-800">
+            <i class="fab fa-x fa-lg"></i>
+          </a>
+          <a href="https://github.com/gdscunm" class="text-gray-600 hover:text-gray-800">
+            <i class="fab fa-github fa-lg"></i>
+          </a>
+          <a href="https://www.youtube.com/@gdgoc-universitasnegerimak7144" class="text-gray-600 hover:text-gray-800">
+            <i class="fab fa-youtube fa-lg"></i>
+          </a>
+        </div>
+        <div class="mt-5 text-center text-base text-gray-500">© 2024 GDGoC UNM. All Rights Reserved</div>
+      </div>
+    </footer>
+    <a href="#home" class="fixed z-[9999] bottom-4 right-4 h-14 w-14 bg-blue-500 hidden items-center justify-center rounded-full p-4 hover:animate-pulse" id="toTop"
+      ><span class="block w-5 h-5 border-t-2 border-l-2 rotate-45 mt-2"></span
+    ></a>
+    <script src="dist/js/script.js"></script>
+  </body>
+</html>
